@@ -1,0 +1,36 @@
+# Node / Next
+node_modules/
+dist/
+out/
+.nyc_output/
+.npm/
+pnpm-lock.yaml
+package-lock.json
+
+# Next.js
+.next/
+.next-static/
+.vercel/
+
+# Env & logs
+.env*
+*.log
+.DS_Store
+
+# Electron build artifacts
+release/
+*.asar
+*.map
+
+# Mongo data
+mongo/
+mongo-data/
+data/
+*.wt
+*.ns
+*.bson
+*.jsonl
+
+# Python venv
+.venv/
+__pycache__/
